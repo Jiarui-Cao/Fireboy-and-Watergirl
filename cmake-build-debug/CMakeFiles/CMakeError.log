@@ -1,0 +1,41 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
+Change Dir: /Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0465/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0465.dir/build.make CMakeFiles/cmTC_d0465.dir/build
+Building CXX object CMakeFiles/cmTC_d0465.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7   -Wcast-align=strict -MD -MT CMakeFiles/cmTC_d0465.dir/src.cxx.o -MF CMakeFiles/cmTC_d0465.dir/src.cxx.o.d -o CMakeFiles/cmTC_d0465.dir/src.cxx.o -c "/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_d0465
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0465.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0465.dir/src.cxx.o -o cmTC_d0465 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
+Change Dir: /Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21cf9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_21cf9.dir/build.make CMakeFiles/cmTC_21cf9.dir/build
+Building CXX object CMakeFiles/cmTC_21cf9.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7   -Werror=bool-compare -MD -MT CMakeFiles/cmTC_21cf9.dir/src.cxx.o -MF CMakeFiles/cmTC_21cf9.dir/src.cxx.o.d -o CMakeFiles/cmTC_21cf9.dir/src.cxx.o -c "/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+warning: unknown warning option '-Werror=bool-compare' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_21cf9
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21cf9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_21cf9.dir/src.cxx.o -o cmTC_21cf9 
+
+
+Source file was:
+int main() { return 0; }

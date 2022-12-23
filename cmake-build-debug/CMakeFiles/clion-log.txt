@@ -1,0 +1,7 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S "/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl" -B "/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug"
+-- Using vendored Catch2 library (/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/.cs211/lib/catch)
+-- Using vendored Ge211 library (/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/.cs211/lib/ge211)
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug

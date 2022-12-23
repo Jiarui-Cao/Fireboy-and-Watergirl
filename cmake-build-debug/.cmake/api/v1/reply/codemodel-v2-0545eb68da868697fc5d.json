@@ -1,0 +1,227 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				},
+				{
+					"build" : ".cs211/lib/catch",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.cs211.lib.catch-Debug-99deced6f02fdeb4c6a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : ".cs211/lib/catch",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : ".cs211/lib/ge211",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.cs211.lib.ge211-Debug-36dc535ddf7b8ce97399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : ".cs211/lib/ge211"
+				},
+				{
+					"build" : ".cs211/lib/ge211/3rdparty/utf8-cpp",
+					"jsonFile" : "directory-.cs211.lib.ge211.3rdparty.utf8-cpp-Debug-a28b2d44172fdbeafc4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : ".cs211/lib/ge211/3rdparty/utf8-cpp"
+				},
+				{
+					"build" : ".cs211/lib/ge211/src",
+					"jsonFile" : "directory-.cs211.lib.ge211.src-Debug-75c4c04c25bdf4409939.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : ".cs211/lib/ge211/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : ".cs211/lib/ge211/example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.cs211.lib.ge211.example-Debug-be7046784f470f150fe6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : ".cs211/lib/ge211/example",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fireboy_and_watergirl",
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						4
+					],
+					"name" : "ge211",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "utf8-cpp",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ge211_examples",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "catch::@be6f5491b685a53c462d",
+					"jsonFile" : "target-catch-Debug-776f140d3f9e588027d5.json",
+					"name" : "catch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fireboy_and_watergirl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fireboy_and_watergirl-Debug-b3939c187d7cded00d94.json",
+					"name" : "fireboy_and_watergirl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fireworks::@7a7c4f16a1d6abcd2711",
+					"jsonFile" : "target-fireworks-Debug-5cbc01c478ea2f1f3a1a.json",
+					"name" : "fireworks",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ge211::@c6d847fed01cad5c45fc",
+					"jsonFile" : "target-ge211-Debug-b37c083a11f272ef7e07.json",
+					"name" : "ge211",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "model_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-model_test-Debug-2c3982e94c1bc788bd30.json",
+					"name" : "model_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl/cmake-build-debug",
+		"source" : "/Users/jerryc/Desktop/Northwestern/2022-2023/Fall/Class/COMP_SCI 211/Fireboy_and_Watergirl"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
