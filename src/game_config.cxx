@@ -13,18 +13,18 @@ Game_Config::Game_Config():
     anti_jump_velocity ({0,10}),
     grav_acceleration ({0, 1000}),
 
-    // // Bottom left of the screen
-    // fireboy_start_pos (50, 650),
-    // watergirl_start_pos (50, 550),
+    // Bottom left of the screen
+    fireboy_start_pos (50, 650),
+    watergirl_start_pos (50, 550),
 
     // // Top of the screen
     // fireboy_start_pos (500, 100),
     // watergirl_start_pos (500, 100),
 
-    // Middle of the screen
-    fireboy_start_pos (200, 450),
-    watergirl_start_pos (200, 450),
-    bricks(),
-    character_animation_rate(0.1)
+//     // Middle of the screen
+//     fireboy_start_pos (200, 450),
+//     watergirl_start_pos (200, 450),
+//     bricks(),
+//     character_animation_rate(0.1)
 {
 }
